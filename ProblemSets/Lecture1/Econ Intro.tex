@@ -1,0 +1,386 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{CambridgeUS}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{algorithm} 
+\usepackage{algorithmic}  
+\usepackage[algo2e]{algorithm2e} 
+
+
+\usecolortheme{seagull}
+
+
+\usepackage{ragged2e}
+\usepackage{tgpagella}
+
+\let\olditem=\item% 
+\renewcommand{\item}{\olditem \justifying}%
+
+\setbeamersize{text margin left=10mm,text margin right=10mm} 
+\title[Econ]{\bf  Economics: A Brief Introduction}
+
+\author{\textbf{Terry Wu\vspace{-10pt}}}
+
+\date{\today}
+
+
+
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+Road Map
+\vspace{10pt}
+\begin{itemize}
+	\item Definition (15 min)
+	\item Field Intro: Academic (15 min)
+	\item Concepts (15 min)
+	\item Basic Strategy (10 min)
+	\item Advanced Strategy (10 min)
+	\item Career Path (15 min)
+	\item Frontiers (15 min)
+	\item My Experience (10 min)
+	\item PhD Overview (10 min)
+	\item Application Tips (5 min)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\bf Definition 1}
+\begin{definition}
+Economics is the social science that studies the optimal allocation of limited resource.
+\end{definition}
+\begin{example}
+The position of the President is limited (one), how to design the best voting mechanism to select the one who perfectly serves the country? (Mechanism Design, Political Economy)
+\end{example}
+\end{frame}
+
+\begin{frame}{\bf Definition 2}
+\begin{definition}
+Economics is the social science that studies the production, distribution, and consumption of goods and services.
+\end{definition}
+\begin{example}
+A company plans to open up a new takeout platform, how much should they charge for an order and when to distributed bonus to selected consumers? (Consumer Theory, Industrial Organization)
+\end{example}
+\end{frame}
+
+
+\begin{frame}{\bf Industrial Organization}
+\begin{definition}
+A field of economics dealing with the strategic behavior of firms, regulatory policy, antitrust policy and market competition.
+\end{definition}
+\begin{enumerate}
+	\item What will the market price change after two firms merge?
+	\item How to estimate the private value of bidders in a second price auction?
+	\item What is the effect of introducing a new product into an well-established market?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Econometrics}
+\begin{definition}
+	A field of economics applying statistical methods to economic data in order to give empirical content to economic relationships. 
+\end{definition}
+\begin{enumerate}
+		\item How to deal the estimation with limited data points?
+	\item What is the unbiased estimator in a multivariate regression model?
+	\item How to identify the parameters in a discrete choice Logit model?
+\end{enumerate}
+\end{frame}
+
+
+\begin{frame}{\bf International Economics (Trade)}
+\begin{definition}
+A field of study which assesses the implications of international trade in goods and services and international investment. 
+\end{definition}
+\begin{enumerate}
+	\item What is the welfare implication of the US-China trade war?
+	\item What is the major impact of canceling NAFTA?
+	\item Is specialization of labor applied in development countries?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Behavioral Economics}
+\begin{definition}
+A field of economic analysis that applies psychological insights into human behavior to explain economic decision-making.
+\end{definition}
+\begin{enumerate}
+	\item How do people invest under uncertainty?
+	\item Will non-proportional thinking induce large volatility in stock market?
+	\item Does good company culture imply high performance?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Labor Economics}
+\begin{definition}
+	A field that studies suppliers of labour services (workers) and the demanders of labour services (employers), and attempts to understand the resulting pattern of wages, employment, and income. 
+\end{definition}
+\begin{enumerate}
+	\item Does large job posting rate imply high/low employment rate?
+	\item Does consumption inequality mirror income inequality?
+	\item When should a firm fire old employees?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Health Economics}
+\begin{definition}
+	A field that concerns with issues related to efficiency, effectiveness, value and behavior in the production and consumption of health and healthcare.
+\end{definition}
+\begin{enumerate}
+	\item Does match between physicians and patients affect treatment results?
+	\item Will a merger of a hospital and a medical device supplier induce higher profits?
+	\item Does automatic enrollment of health insurance improve consumer's welfare?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Financial Economics (Finance)}
+\begin{definition}
+	A field that analyzes the use and distribution of resources in markets in which decisions are made under uncertainty. 
+\end{definition}
+\begin{enumerate}
+	\item What is the optimal asset pricing of options and futures?
+	\item Is risk diversification always better?
+	\item Does agent's effect matters when listing your house?
+\end{enumerate}
+\end{frame}
+\begin{frame}{\bf Other Fields}
+Development Economics, Economic History, Economic Theory, Public Finance, Political Economy, Macroeconomics, Mathematical Economics, Urban Economics, Agricultural and Natural Resource Economics
+\end{frame}
+
+\begin{frame}{\bf Concept: Opportunity Cost}
+\begin{definition}
+Opportunity cost is the highest benefit missed when an investor, individual or business chooses one alternative over another.
+\end{definition}
+\begin{example}
+Suppose you can work in a bank with a hourly rate \$50, what is your opportunity costs of staying here for a 2.5-hour class?
+\end{example}
+\end{frame}
+
+\begin{frame}{\bf Concept: Opportunity Cost}
+Challenge: Taylor Swift's concert tonight is free! However, you get another option of going to Coldplay's concert which \$100. You are not willing to pay more than \$120 for Coldplay's concert. What is your opportunity cost of going to Swift's concert?~(0, 100, 120, 20?)
+\end{frame}
+
+\begin{frame}{\bf Concept: Risk Aversion}
+\begin{definition}
+Risk aversion is the behavior of humans (especially consumers and investors), who, when exposed to uncertainty, attempt to lower that uncertainty.
+\end{definition}
+\begin{example}
+When facing investment choices, risk averse investors are reluctant to buy those highly risky stocks, even which has higher returns with some probability.
+\end{example}
+\end{frame}
+
+\begin{frame}{\bf Concept: Risk Aversion}
+What would you choose to invest your \$10?
+~\\
+~\\
+~\\
+Portfolio A: certainly get back \$15 in the next period.
+~\\
+~\\
+Portfolio B: get back \$100 with probability 0.2 and loss \$6.25 with probability 0.8.
+\end{frame}
+
+\begin{frame}{\bf Concept: Externality}
+\begin{definition}
+	Externality is side effect or consequence of an industrial or commercial activity that affects other parties without this being reflected in the cost of the goods or services involved.
+\end{definition}
+\begin{example}
+Your noisy neighbor plays loud music every night; A nearby factory produces pollutions; Passive smoking...
+\end{example}
+Economic Solution: Taxation and Distributions, economy achieves Pareto optimum under ``invisible hands".
+\end{frame}
+
+\begin{frame}{\bf Basic Strategy: Utility and Production}
+Utility is a mathematical function that ranks alternatives according to their utility to an individual.
+\begin{example}
+\begin{align*}
+U(c)=\sum_i c_i, U(c)=\sum_i \log(c_i), U(c)=(\sum_ic_i^{\alpha})^{1/\alpha}
+\end{align*}
+
+\end{example}
+\end{frame}
+
+\begin{frame}{\bf Basic Strategy: Utility and Production}
+Production function relates quantities of physical output of a production process to quantities of physical inputs.
+\begin{example}
+	\begin{align*}
+F(K,L)=\alpha K^{\beta}L^{1-\beta}, F(K,L)=\gamma K+(1-\gamma)L
+	\end{align*}
+\end{example}
+\end{frame}
+
+
+\begin{frame}{\bf Basic Strategy: Optimization}
+Oftentimes, we do the following maximization problem
+\begin{align*}
+\pmb{\theta}^*=&\arg \max f(x,\pmb{\theta}) \\
+s.t.~~&\pmb{\theta}\in \Theta.
+\end{align*}
+The common tool we use is the Lagrangian method i.e.
+\begin{align*}
+\mathcal{L}=f(x,\pmb{\theta})-\lambda\times [Constrain].
+\end{align*}
+Then we take the derivative i.e.
+\begin{align*}
+\frac{\partial \mathcal{L}}{\partial \pmb{\theta}}|_{\pmb{\theta}=\pmb{\theta}^*}=0,\text{ under some regularity conditions.}
+\end{align*}
+\end{frame}
+
+\begin{frame}{\bf Basic Strategy: Optimization Example}
+Suppose we are deciding to spend $m$ dollars on two consumption goods with utility function $U(c_1,c_2)=\log(c_1)+\log(c_2)$. Suppose the price of $c_i$ is $p_i$. So we are solving the following problem
+\begin{align*}
+\max_{c_1,c_2} U(c_1,c_2)=&\log(c_1)+\log(c_2)\\
+s.t.~&p_1c_1+p_2c_2=m.
+\end{align*}
+The Lagrangian is
+\begin{align*}
+\mathcal{L}=\log(c_1)+\log(c_2)-\lambda\times (p_1c_1+p_2c_2-m).
+\end{align*}
+\end{frame}
+
+\begin{frame}{\bf Basic Strategy: Optimization Example}
+Take derivative w.r.t. $c_1, c_2$ and $\lambda$ and we obtain
+\begin{align*}
+&p_1c_1+p_2c_2=m\\
+&p_1\lambda c_1=1\\
+&p_2\lambda c_2=1.
+\end{align*}
+Three unknowns with three equations, so we could solve them. The optimal consumptions are
+\begin{align*}
+c_1^*=\frac{m}{2p_1}\text{ and }c_2^*=\frac{m}{2p_2}.
+\end{align*}
+What if $p_1=p_2$, do you still need to solve the optimization problem?
+\end{frame}
+
+\begin{frame}{\bf Advanced Strategy: Panel Data Modeling}
+Economists like panel data: they have rich information. The data is described as $\{x_{it},y_{it}\}_{i\in I, t\in T}.$ We run an reduced form estimation with fixed effect
+\begin{align*}
+y_{it}=\alpha +\beta x_{it}+d_i+\delta_t+\varepsilon_{it}
+\end{align*}
+where $x_{it}$ is covariate, $d_i$ is individual fixed effect, $\delta_t$ is time fixed effect and $\varepsilon_{it}$ is an error term.
+\end{frame}
+
+\begin{frame}{\bf Advanced Strategy: Computational Economics}
+A sample R script:
+\begin{figure}[H]
+	\centering
+\includegraphics[scale=0.36]{sample.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{\bf Advanced Strategy: RCT}
+Suppose we are interested in whether rising teacher's fixed income improve their attendance. We run an RCT in a development country and measure the before- and after- attendance. We should argue the effects are isolated, by controlling other effects.
+\end{frame}
+
+\begin{frame}{\bf Advanced Strategy: Dynamic Programming}
+A cake-eating example: 
+\begin{align*}
+V(W_0)=&\max_{c_0}u(c_0)+\beta V(W_1)\\
+s.t. &W_1=W_0-c_0,
+\end{align*}
+where $W_1$ is the cake left in next period, $W_0$ is the cake in this period and $c_0$ is the cake consumed in this period. 
+~\\
+~\\
+How do we solve this problem?
+\begin{enumerate}
+	\item Guess-and-Verify. We guess $V(W_0)=a+bW_0$ and verify whether this holds.
+	\item Value iteration. We guess an initial value function and iterate it over finite times until convergence.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Advanced Strategy: Machine Learning and Data Mining}
+\begin{enumerate}
+	\item Natural Language Processing (LDA Topic Modeling): Hotel Review Data
+	\item Regression Methods: Ridge and LASSO 
+	\item Causal Inference: RCT for Predication, Support Vector Machine, Random forest, etc
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Career Path: Academia}
+Teach students the principles of economics, Conduct research within your field, Formulate new theories and explanations of how markets work (or don’t work!)
+\begin{enumerate}
+\item Professor
+\item Research Analyst (Economist)
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Career Path: Industry}
+Quite flexible:
+~\\
+\begin{enumerate}
+	\item Investment banks
+	\item Consultancies
+\item Major financial institutions
+\item 	Financial advisories
+\item Credit Analyst
+\item Statistician
+\item ......
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Frontiers}
+\begin{enumerate}
+	\item Statistical Learning and Data Mining
+	\item Big Data
+	\item Hotspot
+   	\item Bayesian Econometrics
+   	\item Social and Economic Networks
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf My Experience}
+\begin{enumerate}
+	\item Foundations are important: Microeconomics, Macroeconomics and Econometrics
+	\item Intuitions dominate maths
+	\item Programming is of importance
+	\item Collaboration oftentimes is efficient
+	\item Understand both theory and empirics
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf PhD Overview}
+\begin{enumerate}
+	\item First Year: Core Courses
+	\item End of the First Year: Written Comprehensive Exams
+	\item Second Year: Field Course and Empirical Training
+	\item End of the Second Year: Oral Comprehensive Exams and Second Year Paper
+	\item Third Years and Above: Prospectus Seminars
+	\item Fourth Yeas and Above: Job Market Paper
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{\bf Application Tips}
+\begin{enumerate}
+	\item Standardized exams (SAT/GRE, TOEFL) matter but not that matter
+	\item You should be good at math and statistics
+	\item Enumerate some topics that interest referees
+	\item Narrow your fields down
+	\item Research experience is crucial (for graduate schools)
+	\item Letters of recommendations are the priority
+\end{enumerate}
+\end{frame}
+
+
+
+\section{End}
+\begin{frame}{\bf End}
+\begin{center}
+	\Large{Thank You!}
+\end{center}
+\end{frame}
+
+
+
+
+
+\end{document}
